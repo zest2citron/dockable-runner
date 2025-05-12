@@ -1,0 +1,16 @@
+{
+  "name": "demo-runner",
+  "description": "Exemple de script pour le système dockable-runner",
+  "main": "scripts/main.py",
+  "type": "python",
+  "default_frequency": 60,
+  "env": {
+    "LOG_LEVEL": "INFO",
+    "DATA_DIR": "/root/workspace/dockable-runner/data",
+    "EXAMPLE_API_KEY": "your-api-key-here",
+    "MAX_RETRIES": "3"
+  },
+  "requirements": {
+    "python": ["requests", "pandas", "beautifulsoup4"]
+  }
+}
